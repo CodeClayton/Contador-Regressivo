@@ -26,3 +26,9 @@ Você pode visualizar a página em ação [clicando aqui](https://codeclayton.gi
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu_usuario/contagem-regressiva.git
+
+2. Abra o arquivo index.html:
+
+## Contato
+
+Sinta-se Livre para utilizar o código!
