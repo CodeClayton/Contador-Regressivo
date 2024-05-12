@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*   font-family: "Poppins", sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 2.7rem;
+}
+
+.counter{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.time{
+    display: flex;
+    height: 250px;
+    width: 190px;
+    border-radius: 7px;
+    background-color: rgb(5,5,5,0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.699);
+    color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 5px;
+}
+
+.time span{
+    font-size: 4rem;
+}
+
+.time p {
+    font-size: 1.5rem;
+}
+
+@media(max-width:768px){
+    .counter{
+        width: 100%;
+        gap: 0;
+        flex-wrap: nowrap;
+        background-color: rgb(5,5,5,0.9);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.699);
+    }
+    .time{
+        background-color: transparent;
+        box-shadow: none;
+        width: 44%;
+        height: 180px;
+    }
+    .time span{
+        font-size:40px;
+    }
+    .time p{
+        font-size: 0.7em;
+    }
+}
+
+
+@media (max-width:350px) {
+    .counter{
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .time{
+        background-color: rgb(5,5,5,0.9);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.699);
+    }
+}
