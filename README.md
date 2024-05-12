@@ -5,15 +5,20 @@ Uma simples página HTML que exibe uma contagem regressiva até uma data especí
 ## Demonstração
 
 -Desktop
+
+<br>
+<br>
+
 ![Preview da Contagem Regressiva](src/img/preview-desktop.png)
 
+<br>
 <br>
 
 -Mobile
 
 <br>
 <br>
-<br>
+
 
 ![Preview da Contagem Regressiva](src/img/preview-mob.png)
 
