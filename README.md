@@ -10,6 +10,11 @@ Uma simples página HTML que exibe uma contagem regressiva até uma data especí
 <br>
 
 -Mobile
+
+<br>
+<br>
+<br>
+
 ![Preview da Contagem Regressiva](src/img/preview-mob.png)
 
 
