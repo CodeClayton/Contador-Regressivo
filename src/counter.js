@@ -40,7 +40,6 @@ document.body.onload = () => {
         minutes.textContent = formatZero(minutesLeft);
         seconds.textContent = formatZero(secondsLeft);
 
-        console.log(remainingTime);
         if(remainingTime < 1){
             window.location.href = 'https://www.google.com';
             clearInterval(counterTime);
