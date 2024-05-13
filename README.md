@@ -41,4 +41,4 @@ Você pode visualizar a página em ação [clicando aqui](https://codeclayton.gi
 
 ## Contato
 
-Sinta-se Livre para utilizar o código!
+Sinta-se Livre para modificar o código!
